@@ -5,8 +5,8 @@ module.exports = {
 	entry: path.resolve(__dirname, "src/index.js"),
 	output: {
 		path: path.resolve(__dirname, "docs"),
-		filename: "main.js",
-		publicPath: "/"
+		filename: "index.js",
+		publicPath: "/notebook-task/ "
 	},
 	devServer: {
 		static: path.resolve(__dirname, "./docs"),
