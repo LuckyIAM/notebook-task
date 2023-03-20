@@ -11,6 +11,8 @@
 		"start": "webpack serve"
 	},
 	"dependencies": {
+		"@babel/preset-env": "^7.20.2",
+		"babel-standalone": "^6.26.0",
 		"bootstrap": "^5.2.3",
 		"bootstrap-icons": "^1.10.3",
 		"bootstrap-react": "^0.5.0-alpha.14",
@@ -25,8 +27,7 @@
 		"react-router-dom": "^6.3.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.17.5",
-		"@babel/preset-env": "^7.16.11",
+		"@babel/core": "^7.21.3",
 		"@babel/preset-react": "^7.16.7",
 		"@svgr/webpack": "^6.2.1",
 		"babel-loader": "^8.2.3",

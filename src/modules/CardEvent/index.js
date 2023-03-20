@@ -36,7 +36,7 @@ export default ({number, date, name, status, tiket, single_change, single_adopt}
             localStorage.setItem("events", JSON.stringify(events))
             dataEvent=events
             window.location.reload()
-            
+            JSON.stringify(dataEvent)
             console.log(events); 
         }
 
@@ -72,6 +72,7 @@ export default ({number, date, name, status, tiket, single_change, single_adopt}
 
     function dropHandler(e){
         console.log("cardDrop", e.currentTarget);
+        console.log("end");
         
     }
    
